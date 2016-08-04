@@ -71,3 +71,12 @@ body {
 	color: #ff0900;
 	font:normal 24px "microsoft yahei"
 }
+.verify{
+	
+}
+.verify img{
+	margin-top: 10px;
+}
+.verify input{
+	margin-top: 0px;
+}
