@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+html {
+	
+}
+body {
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    line-height: normal; 
+    font-size: 10px;
+    background: #fff url(../img/bg.png) 0 0 no-repeat;
+    
+}
+.clearfix:after{
+  content: " "; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
+.pull-L{
+  	float: left;
+  }
+.pull-R{
+	float: right;
+}  
+.logo{
+	position: absolute;
+	left: 50px;
+}
+.total-medal-box{
+	position: absolute;
+	left: 440px;
+	top:36px;
+}
+.total-medal-box .tip{
+	color: #797272;
+	font-size: 15px;
+	font-family: "microsoft yahei";
+	margin-top: 10px;
+}
+.total-medal-box .total-medal-num{
+	color: #ff130b;
+	font:bold 32px/1em arial;
+	
+}
+.index-img{
+	margin-top: 52px;
+}
+.index-content{
+	margin-top: 25px;
+	text-align: center;
+}
+.index-content .index-btn{
+	margin-top: 40px;
+	height: 32px;
+	display: inline-block;
+	margin-top: 32px;
+	font: bold 24px/31px "microsoft yahei";
+	color: #fc4f49;
+	padding-left: 32px;
+	background: transparent url(../img/intro-btn.png) 0 0 no-repeat;
+}
+.surplus{
+	margin-top: 38px;
+	font:bold 18px/1em "microsoft yahei";
+	color: #949494;
+}
+.index-content .btn-group{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.index-content a{
+	display: inline-block;
+	margin: 0px 20px;
+}
+
+
+
+
+
+
+
+
+.footer{
+	text-align: center;
+	font: normal 14px/14px "microsoft yahei";
+	color: #FF0000;
+	margin-top: 60px;
+}

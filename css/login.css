@@ -1,0 +1,73 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+html {
+	
+}
+body {
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    line-height: normal; 
+    font-size: 10px;
+    background: #fff url(../img/bg.png) 0 0 no-repeat;
+    
+}
+.pull-L{
+  	float: left;
+  }
+.pull-R{
+	float: right;
+} 
+.clearfix:after{
+  content: " "; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+  }
+  .login-img{
+  	margin-top: 148px;
+  }
+.form-box{
+	text-align: center;
+}
+.form-box input{
+	border: none;
+	border-bottom: 1px solid #cccccc;
+	background-color: transparent;
+	width: 332px;
+	height: 70px;
+	font:normal 30px/70px arial;
+	color: #8d8d8d;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.form-box input:focus{
+	border-bottom: 1px solid #ff0000;
+	color:#333333;
+	
+}
+.form-box .login-btn{
+	display: inline-block;
+	width: 400px;
+	height: 78px;
+	border: none;
+	border-radius: 39px;
+	background-color: #fc4f49;
+	font:normal 30px/78px "microsoft yahei";
+	color: white;
+	margin-top: 80px;
+}
+.others{
+	width: 400px;
+	text-align: center;
+	margin: 42px auto 0;
+}
+.others a{
+	color: #ff0900;
+	font:normal 24px "microsoft yahei"
+}
