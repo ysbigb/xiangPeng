@@ -84,6 +84,8 @@ body {
 .verify{
 	font:normal 24px/80px "microsoft yahei";
 	color: #FF0000;
+	border: none;
+	background-color: transparent;
 }
 .register-btn{
 	display: block;
@@ -119,4 +121,10 @@ body {
 	top:585px;
 	left: 145px;
 }
-
+.identy{
+	width: 74%;
+    float: right;
+    background-color: transparent;
+    border: none;
+    height: 80px;
+}
