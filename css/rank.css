@@ -1,0 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+a{
+	text-decoration: none;
+}
+html {
+	
+}
+body {
+	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+    line-height: normal; 
+    font-size: 10px;
+    background: #fff url(../images/bg.png) 0 0 no-repeat;
+    background-size: cover;
+}
+.pull-L{
+  	float: left;
+  }
+.pull-R{
+	float: right;
+} 
+.clearfix:after{
+  content: " "; 
+  display: block; 
+  height: 0; 
+  clear: both; 
+  visibility: hidden;  
+ }
+ .return-btn{
+ 	position: absolute;
+ 	left: 45px;
+ 	top:55px;
+ }
+ .rank-img{
+ 	margin-top: 50px;
+ }
+ .section1{
+ 	display: flex;
+ 	justify-content: center;
+ 	margin-top: -45px;
+ }
+ .section2{
+ 	margin-top: 50px;
+ }
+.now-medal{
+	border-right: 1px solid #d2e5e3;
+	padding-right: 80px;
+}
+.now-medal b{
+	color: #ff5f51;
+	font: bold 36px/1em "microsoft yahei";
+	margin-right: 30px;
+}
+.now-medal p{
+	color: #fe8600;
+	font: bold 24px/1em "microsoft yahei";
+}
+.now-medal h2{
+	color: #666;
+	font: bold 20px/1em "microsoft yahei";
+	margin-top: 25px;
+	text-align: center;
+}
+.now-rank{
+	padding-left: 80px;
+}
+.now-rank b{
+	color: #ff5f51;
+	font: bold 36px/1em "microsoft yahei";
+	margin-right: 30px;
+}
+.now-rank p{
+	color: #fe8600;
+	font: bold 24px/1em "microsoft yahei";
+}
+.now-rank h2{
+	color: #666;
+	font: bold 20px/1em "microsoft yahei";
+	margin-top: 25px;
+	text-align: center;
+}
+.rank-li{
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d2e5e3;
+	padding-bottom: 10px;
+	margin: 0 60px 0 ;
+	justify-content: space-between;
+	height: 80px;
+	margin-top: 10px;
+}
+.rank-li span{
+	color: #333;
+	font:normal 30px/1em "microsoft yahei";
+	margin-left: -114px;
+}
+.rank-li i{
+	color: #fd6d61;
+	font:italic 30px/1em "microsoft yahei";
+	font-weight: bold;
+	margin-right: 24px;
+}
+.rank-li .total{
+	color: #848484;
+	font: normal 18px/1em "microsoft yahei"
+}
