@@ -13,7 +13,7 @@ body {
 	font-family: -apple-system, "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
     line-height: normal; 
     font-size: 10px;
-    background: #fff url(../img/bg.png) 0 0 no-repeat;
+    background: #fff url(../images/bg.png) 0 0 no-repeat;
     
 }
 .clearfix:after{
@@ -64,7 +64,7 @@ body {
 	font: bold 24px/31px "microsoft yahei";
 	color: #fc4f49;
 	padding-left: 32px;
-	background: transparent url(../img/intro-btn.png) 0 0 no-repeat;
+	background: transparent url(../images/intro-btn.png) 0 0 no-repeat;
 }
 .surplus{
 	margin-top: 38px;
@@ -80,14 +80,6 @@ body {
 	display: inline-block;
 	margin: 0px 20px;
 }
-
-
-
-
-
-
-
-
 .footer{
 	text-align: center;
 	font: normal 14px/14px "microsoft yahei";

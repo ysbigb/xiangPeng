@@ -12,11 +12,12 @@
 			
 		</div>
 		<div class="result-box">
-			<img src="img/register-suceess.png"/>
+			<img class="result-img" src="images/register-suceess.png"/>
+			<a class="go-login-btn" href=""></a>
 		</div>
 		<div class="header">
-			<img class="logo" src="img/logo.png"/>
-			<img class="register-img" src="img/register.png"/>
+			<img class="logo" src="images/logo.png"/>
+			<img class="register-img" src="images/register.png"/>
 		</div>
 		<div class="register-content">
 			<div class="title-box">
@@ -35,10 +36,19 @@
 		</div>
 	</body>
 	<script type="text/javascript">
+		
 		$(".register-btn").on('click',function(){
 			$(".mask").show();
 			$(".result-box").show();
 		})
 		
+		function registerFail(){
+			$(".mask").show();
+			$(".result-img").attr({
+				src: "images/register-fail.png",
+			});
+			$(".result-box").show();
+		}
+
 	</script>
 </html>
