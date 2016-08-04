@@ -128,3 +128,8 @@ body {
     border: none;
     height: 80px;
 }
+.img-verify{
+	position: absolute;
+    top: 0px;
+    right: 0px;
+}
